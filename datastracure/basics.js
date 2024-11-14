@@ -93,14 +93,14 @@ console.log("largest number: ",lrgetst_nums(nums));
 
 //  q1: palindrom check : palindrom mean the word
  function palindrom(str){
-    const cleandstr = str.replace(/[^A-Za-z0-9]/g, '').toLowerCase(); // clean
+    const cleandstr = str.toLowerCase(); // clean
     const reversestr = cleandstr.split('').reverse().join('');
 
     return  cleandstr === reversestr;
 
 
  }
- console.log(palindrom("raaR"));
+ console.log(palindrom("ra81aR"));
 
 // q2:  count vouls in the string
 
